@@ -167,7 +167,7 @@
                         --sample_size $task.match_filter.sample_size
                         --quantile_thr_filtering $task.match_filter.quantile_thr_filtering
                         #if ($task.match_filter.ptm_file):
-                            --ptm_file '$task.match_filter.ptm_file'
+                            --ptm_file '$task.match_filter.ptm_file
                         #else:
                             --ptm_file ./ptm_setting_ps.json
                         #end if
